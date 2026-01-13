@@ -25,3 +25,50 @@ if(age>18){
 else{
     console.log("you're unable to vote");
 }
+// fourth task
+const letters=["a","e","i","o","u"];
+if(letters['1'].toUpperCase){
+    console.log(letters);
+}
+// fifth task
+const time=23;
+if(time<12){
+    console.log("Good morning");
+}
+else if(time<14){
+    console.log("Good afternoon");
+}
+else if(time<18){
+    console.log("Good evening");
+}
+else{
+    console.log("Good night");
+}
+// sixth task
+const int=12;
+if(int<5){
+    console.log("5");
+}
+else if(int==12){
+    console.log(12);
+}
+else{
+    console.log("8")
+}
+// seventh task
+const grade=84;
+if(grade>90 && grade<100){
+    console.log("Group A");
+}
+else if(grade<90){
+    console.log("Group B");
+}
+else if(grade<80){
+    console.log("Group C");
+}
+else if(grade<70){
+    console.log("Group D");
+}
+else {
+    console.log("Group F")
+}
