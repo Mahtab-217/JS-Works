@@ -113,3 +113,28 @@ if(cal/0){
    console.log("Can't devide 15 on zero");
 }
 // thirteen task
+
+let userChoice = prompt("سنگ، کاغذ یا قیچی را انتخاب کن").toLowerCase();
+let randomNum = Math.floor(Math.random() * 3);
+let computerChoice;
+if (randomNum === 0) {
+    computerChoice = "سنگ";
+} else if (randomNum === 1) {
+    computerChoice = "کاغذ";
+} else {
+    computerChoice = "قیچی";
+}
+console.log("انتخاب شما: " + userChoice);
+console.log("انتخاب کامپیوتر: " + computerChoice);
+
+if (userChoice === computerChoice) {
+    console.log("مساوی!");
+} else if (
+    (userChoice === "سنگ" && computerChoice === "قیچی") ||
+    (userChoice === "کاغذ" && computerChoice === "سنگ") ||
+    (userChoice === "قیچی" && computerChoice === "کاغذ")
+) {
+    console.log("شما بردید!");
+} else {
+    console.log("کامپیوتر برد!");
+}
