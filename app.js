@@ -95,3 +95,21 @@ else if(weather<10){
     console.log("Today the weather is very cold");
 }
 // tenth task
+
+// eleventh task
+const devision=20;
+if(devision%5==0){
+    console.log(`${devision }بر پنچ بخش پذیر است`);
+}
+else if(devision%0){
+    console.log("impossible to be devided");
+}
+else{
+    console.log(`${devision }بر پنچ بخش پذیر نیست`);
+}
+// twelfth task
+const cal=15;
+if(cal/0){
+   console.log("Can't devide 15 on zero");
+}
+// thirteen task
