@@ -72,3 +72,26 @@ else if(grade<70){
 else {
     console.log("Group F")
 }
+// eighth task
+const color ="red";
+if(color=="red"){
+    console.log("Stop");
+}
+else if(color=="green"){
+    console.log("Just Go");
+}
+else if(color=="yellow"){
+    console.log("Slow Down");
+}
+// ninth task
+const weather=8;
+if(weather==35){
+    console.log("Today the weather is very hot");
+}
+else if(weather<34 && weather>20){
+    console.log("Today the weather is very Good");
+}
+else if(weather<10){
+    console.log("Today the weather is very cold");
+}
+// tenth task
