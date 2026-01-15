@@ -26,10 +26,18 @@ else{
     console.log("you're unable to vote");
 }
 // fourth task
-const letters=["a","e","i","o","u"];
-if(letters['1'].toUpperCase){
-    console.log(letters);
+const letters="e";
+const lower=letters.toLocaleLowerCase();
+if(isNaN(letters) &&letters.length==1){
+    if(lower=="a"||lower=="e"|| lower=="i" ||lower=="o" ||lower=="u"){
+        console.log("the letter is a vowel letter")
+    }
+    
+    else{
+    console.log("the number is not a vowel letter")
 }
+}
+
 // fifth task
 const time=23;
 if(time<12){
