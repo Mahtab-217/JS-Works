@@ -146,3 +146,21 @@ if (userChoice === computerChoice) {
 } else {
     console.log("کامپیوتر برد!");
 }
+
+// switch practices
+const fruits=prompt("choose your favorite fruit");
+const fruit=fruits.toLowerCase();
+switch(fruit){
+    case "banana":
+        console.log("Yellow")
+        break;
+        case "orange":
+            console.log("Orange");
+            break;
+            case "apple":
+                console.log("Red/Yellow");
+                break;
+                case "pomygranet":
+                    console.log("Red");
+                    break;  
+}
