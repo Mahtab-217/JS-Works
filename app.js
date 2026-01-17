@@ -171,5 +171,21 @@
 for(let i=0; i<=10; i++){
  console.log(i)
 }
+
 // 2nd
-// for(let i=0; i%2==)
+for(let i=1; i<=10;i++){
+    console.log(i*2)
+}
+//3rd
+for(let i=0; i<=100;i++){
+ console.log(i*i)
+}
+// 4th
+for(let m=1; m<=10; m++){
+    console.log(`7*${m}=${7*m}`);
+}
+// 5th
+for(let i=20; i>0; i--){
+ console.log(i)
+}
+// 6th
