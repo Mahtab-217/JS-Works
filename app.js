@@ -189,3 +189,13 @@ for(let i=20; i>0; i--){
  console.log(i)
 }
 // 6th
+for(let n=1;n<11;n++){
+    console.log(n*5)
+}
+// 7th
+let f=1;
+for(let i=1; i<=8;i++){
+    f*=i;
+}
+console.log(f)
+// 8th
