@@ -198,4 +198,7 @@ for(let i=1; i<=8;i++){
     f*=i;
 }
 console.log(f)
-// 8th
+// 12th
+for(let n=1;n<11;n++){
+    console.log(n*9)
+}
