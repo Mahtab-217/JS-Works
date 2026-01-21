@@ -204,9 +204,11 @@
 // }
 let list=[];
 const number=Number(prompt("Enter a number"));
+
 while(true){
     if(number==0){
         break;
     }
     list.push(number);
 }
+
