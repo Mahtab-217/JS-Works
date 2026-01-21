@@ -202,13 +202,13 @@
 // for(let n=1;n<11;n++){
 //     console.log(n*9)
 // }
-let list=[];
-const number=Number(prompt("Enter a number"));
+// let list=[];
+// const number=Number(prompt("Enter a number"));
 
-while(true){
-    if(number==0){
-        break;
-    }
-    list.push(number);
-}
+// while(true){
+//     if(number==0){
+//         break;
+//     }
+//     list.push(number);
+// }
 
