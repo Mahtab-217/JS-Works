@@ -167,38 +167,46 @@
 
 
 
-// 1st
-for(let i=0; i<=10; i++){
- console.log(i)
-}
+// // 1st
+// for(let i=0; i<=10; i++){
+//  console.log(i)
+// }
 
-// 2nd
-for(let i=1; i<=10;i++){
-    console.log(i*2)
-}
-//3rd
-for(let i=0; i<=100;i++){
- console.log(i*i)
-}
-// 4th
-for(let m=1; m<=10; m++){
-    console.log(`7*${m}=${7*m}`);
-}
-// 5th
-for(let i=20; i>0; i--){
- console.log(i)
-}
-// 6th
-for(let n=1;n<11;n++){
-    console.log(n*5)
-}
-// 7th
-let f=1;
-for(let i=1; i<=8;i++){
-    f*=i;
-}
-console.log(f)
-// 12th
-for(let n=1;n<11;n++){
-    console.log(n*9)
+// // 2nd
+// for(let i=1; i<=10;i++){
+//     console.log(i*2)
+// }
+// //3rd
+// for(let i=0; i<=100;i++){
+//  console.log(i*i)
+// }
+// // 4th
+// for(let m=1; m<=10; m++){
+//     console.log(`7*${m}=${7*m}`);
+// }
+// // 5th
+// for(let i=20; i>0; i--){
+//  console.log(i)
+// }
+// // 6th
+// for(let n=1;n<11;n++){
+//     console.log(n*5)
+// }
+// // 7th
+// let f=1;
+// for(let i=1; i<=8;i++){
+//     f*=i;
+// }
+// console.log(f)
+// // 12th
+// for(let n=1;n<11;n++){
+//     console.log(n*9)
+// }
+let list=[];
+const number=Number(prompt("Enter a number"));
+while(true){
+    if(number==0){
+        break;
+    }
+    list.push(number);
 }
