@@ -28,4 +28,13 @@ function lot(...a){
     }
     console.log(total);
 }
-lot(4,2,6)
+lot(4,2,6);
+
+function multiply(...b){
+     let result=1;
+     for(let i=1; i<b.length; i++){
+        result= result*b[i];
+     }
+     console.log(result)
+}
+multiply(3,5)
