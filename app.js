@@ -53,3 +53,12 @@ const num=( num1, num2)=>{
 num(34,43)
 num(21, 12)
 num(22,22)
+function module(a){
+if(a%2==0){
+    console.log("Even")
+}
+else{
+    console.log("Odd")
+}
+}
+module(13)
