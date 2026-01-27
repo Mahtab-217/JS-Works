@@ -70,3 +70,16 @@ for(let i= text.length-1;i>=0; i--){
 console.log (reverse);
 }
 const newtext=string("مهتاب");
+
+function weather(degree){
+    console.log((degree *9/5)+32 + " faranhite");
+}
+weather(-2);
+const fact=(num)=>{
+    let total=1;
+for(let i=1; i<=num;i++){
+    total*=i;
+}
+console.log(total)
+}
+fact(5)
