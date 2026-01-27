@@ -62,3 +62,11 @@ else{
 }
 }
 module(13)
+function string(text){
+let reverse="";
+for(let i= text.length-1;i>=0; i--){
+    reverse +=text[i];
+}
+console.log (reverse);
+}
+const newtext=string("مهتاب");
