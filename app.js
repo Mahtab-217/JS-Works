@@ -101,14 +101,14 @@ popular("Hamta", "Royan");
 
 const star=Number(prompt("Enter how many stars you have"));
 const fun =(star)=>{
-if(star>=90 || star<=100){
-    console.log("you are a super star");
+if(star>=90 && star<=100){
+    console.log("Super star");
 }
 else if(star>=60){
-    console.log("You have alot of stars");
+    console.log("alot of start");
 }
 else{
-    console.log("You have medium stars");
+    console.log("Not alot");
 }
 }
-fun(10)
+fun(10);
