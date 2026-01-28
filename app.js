@@ -98,3 +98,17 @@ function popular(name, lastName){
  console.log(`Hi there dear! your name is ${name} and your last name is ${lastName}`)
 }
 popular("Hamta", "Royan");
+
+const star=Number(prompt("Enter how many stars you have"));
+const fun =(star)=>{
+if(star>=90 || star<=100){
+    console.log("you are a super star");
+}
+else if(star>=60){
+    console.log("You have alot of stars");
+}
+else{
+    console.log("You have medium stars");
+}
+}
+fun(10)
