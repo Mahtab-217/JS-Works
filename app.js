@@ -93,3 +93,8 @@ for(let i=1; i<=num;i++){
 console.log(total)
 }
 minus(8)
+
+function popular(name, lastName){
+ console.log(`Hi there dear! your name is ${name} and your last name is ${lastName}`)
+}
+popular("Hamta", "Royan");
