@@ -112,3 +112,16 @@ else{
 }
 }
 fun(10);
+
+const tall=Number(prompt("How tall are you?"));
+function hieght(){
+    if(tall>=1.80 && tall<=200){
+        console.log("You are the tallest");
+    }else if(tall>=1.60){
+        console.log("your hieght is meduim");
+
+    } else{
+        console.log("You are not tall")
+    }
+}
+hieght();
