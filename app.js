@@ -75,6 +75,7 @@ function weather(degree){
     console.log((degree *9/5)+32 + " faranhite");
 }
 weather(-2);
+
 const fact=(num)=>{
     let total=1;
 for(let i=1; i<=num;i++){
@@ -83,3 +84,12 @@ for(let i=1; i<=num;i++){
 console.log(total)
 }
 fact(5)
+
+const minus=(num)=>{
+    let total=1;
+for(let i=1; i<=num;i++){
+    total+=i;
+}
+console.log(total)
+}
+minus(8)
