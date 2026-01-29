@@ -53,6 +53,8 @@ const num=( num1, num2)=>{
 num(34,43)
 num(21, 12)
 num(22,22)
+
+
 function module(a){
 if(a%2==0){
     console.log("Even")
@@ -62,6 +64,8 @@ else{
 }
 }
 module(13)
+
+
 function string(text){
 let reverse="";
 for(let i= text.length-1;i>=0; i--){
@@ -71,10 +75,12 @@ console.log (reverse);
 }
 const newtext=string("مهتاب");
 
+
 function weather(degree){
     console.log((degree *9/5)+32 + " faranhite");
 }
 weather(-2);
+
 
 const fact=(num)=>{
     let total=1;
@@ -85,6 +91,7 @@ console.log(total)
 }
 fact(5)
 
+
 const minus=(num)=>{
     let total=1;
 for(let i=1; i<=num;i++){
@@ -94,10 +101,12 @@ console.log(total)
 }
 minus(8)
 
+
 function popular(name, lastName){
  console.log(`Hi there dear! your name is ${name} and your last name is ${lastName}`)
 }
 popular("Hamta", "Royan");
+
 
 const star=Number(prompt("Enter how many stars you have"));
 const fun =(star)=>{
@@ -113,6 +122,7 @@ else{
 }
 fun(10);
 
+
 const tall=Number(prompt("How tall are you?"));
 function hieght(){
     if(tall>=1.80 && tall<=200){
@@ -125,3 +135,13 @@ function hieght(){
     }
 }
 hieght();
+
+
+function plus(list){
+    let total=0;
+  for(let i=0; i< list.length; i++){
+   total+=list[i];
+  }
+  return total;
+}
+console.log(plus([3,2,4,5,6]));
