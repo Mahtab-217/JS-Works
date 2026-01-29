@@ -145,3 +145,21 @@ function plus(list){
   return total;
 }
 console.log(plus([3,2,4,5,6]));
+
+
+const prime=(a)=>{
+ let isPrime = true;
+ if(a<=1){
+    isPrime=false;
+ }
+ else{
+    for(let i=2;i<math.sqrt(a);i++){
+        isPrime =false;
+        break;
+    }
+    
+ 
+ return isPrime;
+}
+}
+console.log(prime(13));
