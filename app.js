@@ -1,43 +1,4 @@
-// function hi(name){
-//     console.log("Hi dear" + name)
-// }
-// hi(" Ali");
-// const bye= function(name){
-//     console.log("Good bye dear " +name)
-// }
-// bye("Ahmad");
 
-// const sum=(a,b)=>{
-//     console.log(a*b);
-// }
-// sum(5,12);
-// const jum =(a,b=32)=>{
-//    console.log(a+b);
-// }
-// jum(15)
-
-// const rested=(...b)=>{
-//     console.log(b)
-// }
-// rested(3,2,4,5,2,1,44,56)
-
-// function lot(...a){
-//     let total=0;
-//     for(let i=0; i<a.length; i++){
-//         total= total+a[i];
-//     }
-//     console.log(total);
-// }
-// lot(4,2,6);
-
-// function multiply(...b){
-//      let result=1;
-//      for(let i=1; i<b.length; i++){
-//         result= result-b[i];
-//      }
-//      console.log(result)
-// }
-// multiply(3,5,9,90)
 const num=( num1, num2)=>{
    if(num1==num2){
     console.log("Equal")
@@ -171,3 +132,17 @@ let sr2= b.replace(/\s/g, '').toLowerCase();
 return str1.split("").sort().join("")===str2.split("").sort().join("");
 }
 const result2=Anagram("eat","tea");
+
+
+function fruit(a){
+    if(a.length>8){
+        console.log("Deliciuos");
+    }
+    else if(a.length<5){
+        console.log("Normal");
+    }
+    else{
+        console.log("Not Good");
+    }
+}
+console.log(fruit("banana"));
