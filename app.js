@@ -163,3 +163,11 @@ const prime=(a)=>{
 }
 }
 console.log(prime(13));
+
+
+function Anagram(a,b){
+let sr1= a.replace(/\s/g, '').toLowerCase();
+let sr2= b.replace(/\s/g, '').toLowerCase();
+return str1.split("").sort().join("")===str2.split("").sort().join("");
+}
+const result2=Anagram("eat","tea");
