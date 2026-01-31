@@ -3,15 +3,29 @@ console.log(text.length);
 console.log(text.toLocaleLowerCase());
 console.log(text.toUpperCase());
 console.log(text.split(" "));
-console.log(text.trim());
-console.log(text.charAt(4));
-console.log(text.charCodeAt(0));
-console.log(text.indexOf("f"));
-console.log(text.lastIndexOf("f"));
-console.log(text.includes("name"));
-console.log(text.startsWith("Hello"));
-console.log(text.endsWith(" "));
 
-const sen="Hello World I'm busy";
-console.log(replace("H", "I"));
-console.log(sen.repeat())
+const jumla="My friends are great"
+console.log(jumla.trim());
+console.log(jumla.charAt(4));
+
+const para="God is the kindest"
+console.log(para.charCodeAt(0));
+console.log(para.indexOf("t"));
+console.log(para.lastIndexOf("t"));
+
+const aziz="Dear classmates be in touch";
+console.log(aziz.includes("be"));
+console.log(aziz.startsWith("Dear"));
+console.log(aziz.endsWith(" "));
+
+const sen="Hello ";
+ console.log(sen.repeat(5));
+ console.log(sen.slice(0,3));
+ console.log(sen.concat("JS"));
+
+ const sentence="Ali Ahmadi";
+ console.log(sentence.localeCompare("d"));
+
+
+ const number=6;
+ console.log(number.padStart(3,"0"))
