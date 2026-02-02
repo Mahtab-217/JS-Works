@@ -30,5 +30,18 @@
 
 //  const number=6;
 //  console.log(number.padStart(3,"0"  ))
+function find(...number){
+    let count=0;
+    let total=0;
+    for(let i=0; i<number.length;i++)
+{
+    if(number[i]>0){
+        count++;
+        total+=number[i];
+    }
+}
+return total/count;
+}
+console.log(find(1,2,4,5,-4));
 
 
