@@ -56,3 +56,19 @@ return result;
 const outcome= getText("Hell33o");
 
 
+function snake(a){
+    let result="";
+    for(let i=0; i<a.length;i++){
+        if(a[i]>="A" && a[i]<="Z"){
+            result += "_"+ a[i].toLowerCase();
+
+        }
+        else
+        {
+            result +=a[i];
+        }
+    }
+    return result;
+}
+console.log(snake("lastName"));
+console.log(snake("fatherName"));
