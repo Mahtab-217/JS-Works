@@ -44,4 +44,15 @@ return total/count;
 }
 console.log(find(1,2,4,5,-4));
 
+function getText(test){
+let result="";
+for(let i=0; i<Text.length; i++){
+    if(text[i]>="a" && text[i]<="z" ||text[i]>="A" && text[i]<="Z"){
+        result+=text[i];
+    }
+}
+return result;
+}
+const outcome= getText("Hell33o");
+
 
