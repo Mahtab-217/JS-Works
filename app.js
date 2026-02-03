@@ -74,14 +74,32 @@
 // console.log(snake("fatherName"));
 // // father_name
 
-function deleteSpace(text){
- let start="";
- let end =text.length-1;
-  for(let i=0; i<text.length; i ++){
-    if(text[i]!==" "){
-        start =i;
-        break;
+// function deleteSpace(text){
+//  let start="";
+//  let end =text.length-1;
+//   for(let i=0; i<text.length; i ++){
+//     if(text[i]!==" "){
+//         start =i;
+//         break;
+//     }
+//   }
+// }
+// deleteSpace("    Hello Dear Teacher   ")
+function deleteSpace(){
+    let start="";
+    let end =text.length-1;
+    for(let i= 0; i<text.length; i++){
+        if(text[i]!==" "){
+            start =i;
+            break;
+        }
     }
-  }
+    for(let i=text.length-1; i>=0;i--){
+        if(text[i]!==" "){
+            end=i;
+            break;
+        }
+    }
+    return text.slice(start,end+1);
 }
-deleteSpace("    Hello Dear Teacher   ")
+const result5 = deleteSpace("    Hello Dear Teacher    ");
