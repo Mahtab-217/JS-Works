@@ -38,3 +38,15 @@ function greeting(n){
 }
 const list =[1,2,3]
 list.forEach(greeting);
+
+
+const price=[120,430,450];
+const tax =0.03;
+const total=price.map(getPrice)
+function getPrice(price){
+    return price *tax+price;
+   
+}
+
+
+
