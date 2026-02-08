@@ -33,20 +33,28 @@
 // }
 // const total2 = reverse("Hi Teacher");
 
-function greeting(n){
-   console.log(`We are in numer ${n}`);
-}
-const list =[1,2,3]
-list.forEach(greeting);
+// function greeting(n){
+//    console.log(`We are in numer ${n}`);
+// }
+// const list =[1,2,3]
+// list.forEach(greeting);
 
 
-const price=[120,430,450];
-const tax =0.03;
-const total=price.map(getPrice)
-function getPrice(price){
-    return price *tax+price;
-   
-}
+// const price=[120,430,450];
+// const tax =0.03;
+// const total=price.map(getPrice)
+// function getPrice(price){
+//     return price *tax+price;
 
+// }
 
+ const list =[1,3,4,5,6,7,,2];
+ function getNumber(num){
+    return num>5
+ }
+ const result = list.some(getNumber);
 
+ function getResult(item){
+    return item<2
+ }
+ const result2=list.every(getResult);
