@@ -49,12 +49,24 @@
 // }
 
  const list =[1,3,4,5,6,7,,2];
+const result3= list.reduce(function(current, item){
+      return current*item;
+ },0);
+
+
  function getNumber(num){
     return num>5
  }
  const result = list.some(getNumber);
 
+
+
  function getResult(item){
     return item<2
  }
  const result2=list.every(getResult);
+
+
+const number =12.98;
+const convertedToText=number.toString();
+const [num,ashar]= convertedToText.split(".");
