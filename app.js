@@ -51,7 +51,10 @@
  const list =[1,3,4,5,6,7,,2];
 const result3= list.reduce(function(current, item){
       return current*item;
- },0);
+ },1
+
+
+);
 
 
  function getNumber(num){
@@ -70,3 +73,26 @@ const result3= list.reduce(function(current, item){
 const number =12.98;
 const convertedToText=number.toString();
 const [num,ashar]= convertedToText.split(".");
+
+const reversed=[12,22,23,24,25];
+const result4=reversed.reverse(reversed);
+
+const sorted=[23,22,21,19];
+const result1=sorted.sort(sorted);
+
+
+
+// const f = [1,2,3,4,5];
+// function getNumber1(g){
+//    return  g>2;
+// }
+// const total = f.filter(getNumber);
+
+const number1 = [1,2,3,4,5,6]
+const evenNumber=(n)=>{
+   return  n>2;
+}
+
+const filterNumber = number1(even)
+
+
