@@ -49,6 +49,36 @@
 // }
 
  const list =[1,3,4,5,6,7,,2];
+const result6= list.reduce(function(current, item){
+      return current*item;
+ },1
+
+
+);
+
+
+ function getNumber(num){
+    return num>5
+ }
+ const result5 = list.some(getNumber);
+
+
+
+ function getResult(item){
+    return item<2
+ }
+ const result56=list.every(getResult);
+
+
+const number4 =12.98;
+const convertedToTex54=number.toString();
+const [num4,ashar4]= convertedToText.split(".");
+
+const reversed5=[12,22,23,24,25];
+const result44=reversed.reverse(reversed);
+
+const sorte4d=[23,22,21,19];
+const result41=sorted.sort(sorted);
 const result3= list.reduce(function(current, item){
       return current*item;
  },1
