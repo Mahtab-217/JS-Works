@@ -130,4 +130,17 @@ console.log(elements);
 // elements[1].outerHTML="<p> Hello there</p>"
 const p=document.createElement("p");
 p.textContent="Good Morning";
-elements[1].replaceWith(p)
+const h1=document.createElement("h1");
+h1.textContent="Good Noon"
+elements[0].append(p);
+// const h1= document.querySelector("section > h1");
+// elements[1].replaceChild(h1, p);
+const button=document.createElement("button");
+button.textContent="Change Element";
+button.addEventListener("click",()=>{
+  elements[0].replaceChild(h1,p)
+//   p.replaceWith(h1);
+// p.remove();
+// elements[0].removeChild(p);
+});
+elements[1].append(button);
