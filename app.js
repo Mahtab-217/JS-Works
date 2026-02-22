@@ -48,81 +48,86 @@
 
 // }
 
- const list =[1,3,4,5,6,7,,2];
-const result6= list.reduce(function(current, item){
-      return current*item;
- },1
+//  const list =[1,3,4,5,6,7,,2];
+// const result6= list.reduce(function(current, item){
+//       return current*item;
+//  },1
 
 
-);
+// );
 
 
- function getNumber(num){
-    return num>5
- }
- const result5 = list.some(getNumber);
-
-
-
- function getResult(item){
-    return item<2
- }
- const result56=list.every(getResult);
-
-
-const number4 =12.98;
-const convertedToTex54=number.toString();
-const [num4,ashar4]= convertedToText.split(".");
-
-const reversed5=[12,22,23,24,25];
-const result44=reversed.reverse(reversed);
-
-const sorte4d=[23,22,21,19];
-const result41=sorted.sort(sorted);
-const result3= list.reduce(function(current, item){
-      return current*item;
- },1
-
-
-);
-
-
- function getNumber(num){
-    return num>5
- }
- const result = list.some(getNumber);
+//  function getNumber(num){
+//     return num>5
+//  }
+//  const result5 = list.some(getNumber);
 
 
 
- function getResult(item){
-    return item<2
- }
- const result2=list.every(getResult);
+//  function getResult(item){
+//     return item<2
+//  }
+//  const result56=list.every(getResult);
 
 
-const number =12.98;
-const convertedToText=number.toString();
-const [num,ashar]= convertedToText.split(".");
+// const number4 =12.98;
+// const convertedToTex54=number.toString();
+// const [num4,ashar4]= convertedToText.split(".");
 
-const reversed=[12,22,23,24,25];
-const result4=reversed.reverse(reversed);
+// const reversed5=[12,22,23,24,25];
+// const result44=reversed.reverse(reversed);
 
-const sorted=[23,22,21,19];
-const result1=sorted.sort(sorted);
+// const sorte4d=[23,22,21,19];
+// const result41=sorted.sort(sorted);
+// const result3= list.reduce(function(current, item){
+//       return current*item;
+//  },1
+
+
+// );
+
+
+//  function getNumber(num){
+//     return num>5
+//  }
+//  const result = list.some(getNumber);
 
 
 
-// const f = [1,2,3,4,5];
-// function getNumber1(g){
-//    return  g>2;
+//  function getResult(item){
+//     return item<2
+//  }
+//  const result2=list.every(getResult);
+
+
+// const number =12.98;
+// const convertedToText=number.toString();
+// const [num,ashar]= convertedToText.split(".");
+
+// const reversed=[12,22,23,24,25];
+// const result4=reversed.reverse(reversed);
+
+// const sorted=[23,22,21,19];
+// const result1=sorted.sort(sorted);
+
+
+
+// // const f = [1,2,3,4,5];
+// // function getNumber1(g){
+// //    return  g>2;
+// // }
+// // const total = f.filter(getNumber);
+
+// const number1 = [1,2,3,4,5,6]
+// const evenNumber=(n)=>{
+//    return  n>2;
 // }
-// const total = f.filter(getNumber);
 
-const number1 = [1,2,3,4,5,6]
-const evenNumber=(n)=>{
-   return  n>2;
-}
+// const filterNumber = number1(even)
 
-const filterNumber = number1(even)
-
-
+const elements=document.getElementsByClassName("a");
+console.log(elements);
+// elements[1].outerHTML="<p> Hello there</p>"
+const p=document.createElement("p");
+p.textContent="Good Morning";
+elements[1].replaceWith(p)
